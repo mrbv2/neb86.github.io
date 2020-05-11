@@ -19,45 +19,31 @@ html {
   align-items: center;
   justify-content: center;
 }
+img {
+  width: 55px;
+  height: 85px;
+}
 
 h1 {
 	font-size: 2rem;
 	color: black;
   font-weight: 600;
+  text-transform: lowercase;
+}
+
+.design {
+  font-weight: 200;
 }
 
 hr {
   border-color: #F05F44;
   border-width: 3px;
-  /* max-width: 65px; */
 }
 
-.btn {
-  font-weight: 700;
-  border-radius: 300px;
-  text-transform: uppercase;
+a {
   color: black;
 }
 
-.btn-primary {
-  background-color: ghostwhite;
-  border-size: 3px;
-  border-color: black;
-}
-
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-}
-
-.btn-xl {
-  padding: 1rem 2rem;
-}
-
-img {
-  width: 55px;
-  height: 85px;
-}
-.design {
-  font-weight: 200;
+a:hover {
+  color: #F05F44;
 }
