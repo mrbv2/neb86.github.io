@@ -4,15 +4,16 @@ html {
   height: auto;
   font-family: 'helvetica', sans-serif;
   background-color: lightgrey;
-  background: url("https://www.technocrazed.com/wp-content/uploads/2015/12/Simple-wallpaper-52.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 h1 {
 	font-size: 2rem;
 	color: black;
+  font-weight: bolder;
 }
 
 hr {
@@ -42,11 +43,10 @@ hr {
   padding: 1rem 2rem;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
+img {
+  width: 55px;
+  height: 85px;
 }
-
-.dot {
-  color: #ee4b08;
+.design {
+  font-weight: 400;
 }
